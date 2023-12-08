@@ -1,1 +1,1 @@
-# image-based-fashion-recommender-system
+# Image-Based Fashion Recommender System
