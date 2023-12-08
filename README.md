@@ -13,10 +13,19 @@ The global economy is significantly influenced by the fashion sector, with onlin
 - These extracted products and labeled images are also available at the drive link provided in dataset/Readme.md.
 
 ### Step 2: Complete the Look
+- The code to run "Complete the Look Pipeline" is available in code/Complete_the_look.ipynb file.
+- By using the dataset created in Step 1, ANNOY index is built to find the outfits most similar to any given query outfit.
+- For a given outfit, the missing items/fashion products are identified automatically.
+- The top N product recommendations are provided for the query outfit.
+- The recommendations generated for 'colorful_fashion_images' and 'Pinterest' dataset are available at the provided drive link in dataset/Readme.md.
 
 ### Step 3: Evaluation
+- The code to run the evaluation pipleine for each fashion label is available in code/evaluation/Evaluation_model_<fashion_label>.ipynb file.
+- For each fashion label, the evaluation is performed separately.
+- All recommendations generated for a particular outfit are comapred with the ground truth to find the cosine similarity between them.
+- Such cosine similarity is calculated over all products for all labels such as shirts, jackets, pants, shoes and bags.
 
-
+ 
 ## Sample Recommendations
 
 ![Image1](images/rec1.png)
@@ -37,5 +46,9 @@ Survey 3: https://forms.gle/rjMygAm9F6qU6phb9
 Survey 4: https://shorturl.at/szFJL
 
 Survey 5: https://forms.gle/qQM5rfuDeWaqwpSd9
+
+Our current survey results show that ~70% users would cosinder our fashion recommender system for their future styling choices.
+
+![Image5](images/survey.png)
 
 
