@@ -35,13 +35,13 @@ The global economy is significantly influenced by the fashion sector, with onlin
 ![Image2](images/rec2.png)
 
 ### Shoes Recommendation
-![Image2](images/shoes.png)
+![Image3](images/shoes.png)
 
 ### Bag Recommendation
-![Image2](images/bags.png)
+![Image4](images/bags.png)
 
 ### Complete the Look
-![Image4](images/ctl1.png)
+![Image5](images/ctl1.png)
 
 ## Survey Links
 
