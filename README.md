@@ -7,10 +7,10 @@ The global economy is significantly influenced by the fashion sector, with onlin
 ## Steps to Recreate Our fashion Recommender System
 
 ### Step 1: Dataset Curation
-- The code to to curate dataset is available in code/dataset_curation_yolov8.ipynb file
-- The required input datasets are colorful_fashion_images and Pinterest dataset which are botyh available at the provided drive link in dataset/Redme.md.
-- The code downloads these images, preprocesses them and extract the products from outfits to create a link between outfits and products using YOLOv8 fine-tuned model.
-- These extracted products and labeled images are also available at the drive link provided in dataset/Redme.md.
+- The code to curate dataset is available in code/dataset_curation_yolov8.ipynb file.
+- The required input datasets are 'colorful_fashion_images' and 'Pinterest' dataset which are both available at the provided drive link in dataset/Readme.md.
+- The code downloads these images, preprocesses them and extract the products from outfits to create a link between outfits and products using YOLOv8 fine-tuned model. The mapping can also be seenn in the dataframe available at dataset/df_unique_final.csv.
+- These extracted products and labeled images are also available at the drive link provided in dataset/Readme.md.
 
 ### Step 2: Complete the Look
 
